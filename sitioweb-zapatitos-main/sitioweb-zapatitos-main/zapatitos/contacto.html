@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> contacto-zapatitos</title>
+    <link rel="shortcut icon" href="imagenes/logo 1.png" type="image/x-icon">
+</head>
+<body>
+  <!-- <a href="servicios.html">ir a seervicio </a>
+  <a href="">
+      <img src="imagenes/logo 1.png" width="5%" -->
+  <!-- </a> -->
+  <!-- <a href="https://www.youtube.com/?app=desktop&hl=es">ir a youtube </a> -->
+
+<div style="display: flex; justify-content:center; gap: 10px;">  
+     <a href="nosotros.html">nosotros</a>
+     <a href="productos.html">productos</a>
+     <a href="contacto.html">contacto</a>
+</div>
+   
+  <div align="center"> 
+    <h1 style="color: lightblue;">conoce nuestros productos</h1>
+    <p>Contactanos para tener el gusto de atenderte </p>
+    <!-- imagen -->
+    <img  width="30%" src="imagenes/contactos.jpg" alt="portada de inicio">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4114570446345!2d-75.5702626241535!3d6.209336976732647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428299b5aa6d9%3A0x2020c055ff96b671!2sEl%20Poblado%2C%20Medell%C3%ADn%2C%20El%20Poblado%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1738080867854!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+   <div style="text-align: center; margin-top: 20px;margin-bottom: 20px;"> 
+      <form>
+         <label> escriba su nombre:</label>
+         <input name="nombre cliente" type="text" placeholder="escriba en Mayusculas"> <br>
+
+         <label> celular o telefono</label>
+        <input name="telefono" type="tel" placeholder="Numero"> <br>
+
+        <label> Escriba su correo:</label>
+        <input name="correo" type="email" placeholder="sin signos de interrogacion "> <br>
+
+        <label> fecha de nacimiento</label>
+        <input type="date" min="1950-12-31" max="2006-12-31"><br>
+
+        <label> su edad</label>
+        <input name="edad" type="number" placeholder="Numero" min="18" max="50"> <br>
+        
+        <label> envia unafoto:</label>
+        <input type="file" accept=".jpg, .png, .gif" max="3mb"> <br>
+
+        <label>genero </label>
+        <input type="radio" name="genero" value="hombre">hombre
+        <input type="radio" name="genero" value="mujer">mujer
+        <input type="radio" name="genero" value="no se">no se
+        <input type="radio" name="genero" value="que le importa">que le importa <br>
+
+        <label>dime que te interesa</label>
+        <input type="checkbox" name="zapatos" value="unisex">zapatos unisex
+        <input type="checkbox" name="zapatos" value="mujer">zapatos mujer
+        <input type="checkbox" name="zapatitos" value="hombre">zapatos hombre
+        <input type="checkbox" name="zapatos" value="otro">otro <br>
+         
+        <label> selecciona una opcion de contacto</label>
+        <select name="contacto">
+              <option value="via whatsApp">via whatsApp</option>
+              <option value="señales de humo">señales de humo</option>
+              <option value="llamada telefonica"> llamada telefonica</option>
+              <option value="rappi">rappi</option>
+              <option value="otro">otro</option>
+        </select> <br>
+
+        <label> mensaje</label> 
+        <textarea name="mensaje"></textarea> <br>
+
+        <button type="submit">enviar datos</button> 
+        <button type="reset">borrar datos</button> <br>
+        </form>
+    </div>
+
+</body>
+</html>
